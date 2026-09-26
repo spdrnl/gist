@@ -214,7 +214,7 @@ Certain RDFS annotations are recommended where there is no SKOS equivalent.
 | Annotation | Use |
 | ---------: | --- |
 | `rdfs:seeAlso` | Indicates a resource that may provide additional information about the subject. Should be a link to a web page or RDF resource rather than text. See examples of its use in gist to get an idea of where it would be helpful. |
-| `rdfs:isDefinedBy` | Identifies the ontology module the term is defined in. Added automatically during gist release bundling and does not needed to be added by hand. |
+| `rdfs:isDefinedBy` | Identifies the ontology module the term is defined in. Added automatically during gist release bundling and does not need to be added by hand. |
 
 *Use only rarely*
 
