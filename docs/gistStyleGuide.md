@@ -131,8 +131,6 @@ For example, given the class hierarchy `Living Thing` > `Person` > `Professor`, 
 
 Exceptions to this guideline arise may arise in IRI minting during data mapping. Based on how the data is presented, it is often difficult or cumbersome to know the most specific type of an instance, so one can fall back on a higher-level class. E.g., when processing a table of organizations, it may not be possible to know which are governmental organizations, which corporations, and which non-profits, so the infix `_Organization_` can be used throughout.
 
-Exceptions to this guideline arise may arise in IRI minting during data mapping. Based on how the data is presented, it is often difficult or cumbersome to know the most specific type of an instance, so one can fall back on a higher-level class. E.g., when processing a table of organizations, it may not be possible to know which are governmental organizations, which corporations, and which non-profits, so the infix `_Organization_` can be used throughout.
-
 ### Labels
 
 The following conventions apply to `skos:prefLabel` but *not* `skos:altLabel`, which by nature may be idiosyncratic.
