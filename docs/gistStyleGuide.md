@@ -129,7 +129,7 @@ The *most specific rigid* class is the rigid class that the instance most direct
 
 For example, given the class hierarchy `Living Thing` > `Person` > `Professor`, where the first two classes are rigid and the third is not, the name for Sir Tim Berners-Lee is `_Person_Sir_Tim_Berners_Lee`.
 
-Exceptions to this guideline arise may arise in IRI minting during data mapping. Based on how the data is presented, it is often difficult or cumbersome to know the most specific type of an instance, so one can fall back on a higher-level class. E.g., when processing a table of organizations, it may not be possible to know which are governmental organizations, which corporations, and which non-profits, so the infix `_Organization_` can be used throughout.
+Exceptions to this guideline may arise in IRI minting during data mapping. Based on how the data is presented, it is often difficult or cumbersome to know the most specific type of an instance, so one can fall back on a higher-level class. E.g., when processing a table of organizations, it may not be possible to know which are governmental organizations, which corporations, and which non-profits, so the infix `_Organization_` can be used throughout.
 
 ### Labels
 
